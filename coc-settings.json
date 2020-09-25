@@ -4,10 +4,10 @@
     "markdown",
     "javascript",
     "graphql",
-    "html",
     "yaml",
     "json",
-    "python"
+    "python",
+    "dart"
   ],
 
   // python config
@@ -23,5 +23,7 @@
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+
+  "flutter.lsp.initialization.closingLabels": true
 }
