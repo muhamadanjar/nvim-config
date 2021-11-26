@@ -9,7 +9,10 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    " Plug 'sheerun/vim-polyglot'
+
+    Plug 'nvim-lualine/lualine.nvim'
+
     " File Explorer
     " Plug 'scrooloose/NERDTree'
     " Plug 'scrooloose/nerdcommenter'
@@ -19,16 +22,30 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hrsh7th/nvim-compe'
 
     Plug 'tpope/vim-fugitive'
-
+    Plug 'tpope/vim-rhubarb'
+    Plug 'airblade/vim-gitgutter'
+    
+    " Fuzzy finder
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+
+    " Better Syntax Higlighting
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/nvim-cmp'
+
+    " Icon
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'kyazdani42/nvim-tree.lua'
 
     " Auto pairs for '(' '[' '{'
     "Plug 'jiangmiao/auto-pairs'
     "
     Plug 'windwp/nvim-autopairs'
+
     Plug 'joshdick/onedark.vim'
     " Stable version of coc
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -43,7 +60,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'norcalli/nvim-colorizer.lua'
     
     Plug 'lilydjwg/colorizer'
-    Plug 'airblade/vim-gitgutter'
 
 
     Plug 'natebosch/vim-lsc'

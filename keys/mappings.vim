@@ -1,3 +1,5 @@
+" make leader to space
+let mapleader = "\<Space>"
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -45,3 +47,19 @@ nnoremap <Leader>O O<Esc>^D"
 
 "vmap ++ <plug>NERDCommenterToggle
 "nmap ++ <plug>NERDCommenterToggle
+
+
+" Tabs
+
+" Open current directory
+"nmap te :tabedit 
+"nmap <S-Tab> :tabprev<Return>
+"nmap <Tab> :tabnext<Return>
+"
+"
+"------------------------------
+" Windows
+
+" Split window
+nmap ss :split<Return><C-w>w
+nmap sv :vsplit<Return><C-w>w
