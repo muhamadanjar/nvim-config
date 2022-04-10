@@ -15,7 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " File Explorer
     " Plug 'scrooloose/NERDTree'
-    " Plug 'scrooloose/nerdcommenter'
+    Plug 'scrooloose/nerdcommenter'
 
     " LSP
     Plug 'neovim/nvim-lspconfig'
@@ -64,6 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'natebosch/vim-lsc'
     Plug 'natebosch/vim-lsc-dart'
+
+    Plug 'github/copilot.vim'
 
 
 call plug#end()

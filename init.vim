@@ -14,8 +14,9 @@ luafile $HOME/.config/nvim/lua/python-lsp.lua
 luafile $HOME/.config/nvim/lua/compe-config.lua
 luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/tserver.lua
-"luafile $HOME/.config/nvim/lua/nvim-tree.lua
 "luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+"luafile $HOME/.config/nvim/lua/nvim-tree.lua
+
 
 " Config
 "source $HOME/.config/nvim/plug-config/coc.vim
@@ -23,4 +24,4 @@ luafile $HOME/.config/nvim/lua/tserver.lua
 "source $HOME/.config/nvim/plug-config/fzf.vim
 "source $HOME/.config/nvim/plug-config/flutter.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
-"source $HOME/.config/nvim/plug-config/nvim-tree.vim
+source $HOME/.config/nvim/plug-config/nvim-tree.vim
