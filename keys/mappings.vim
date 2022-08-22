@@ -51,6 +51,7 @@ nnoremap <Leader>O O<Esc>^D"
 
 " Tabs
 
+
 " Open current directory
 "nmap te :tabedit 
 "nmap <S-Tab> :tabprev<Return>
