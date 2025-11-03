@@ -12,7 +12,7 @@ vim.opt.autoindent = true
 vim.opt.hlsearch = true
 
 vim.opt.backup = false
-vim.opt.showcmd =  true
+vim.opt.showcmd = true
 vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.expandtab = true
@@ -26,9 +26,9 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.ai = true -- auto indent
-vim.opt.si = true -- auto smart indent
-vim.opt.wrap = false -- no wrap line
+vim.opt.ai = true            -- auto indent
+vim.opt.si = true            -- auto smart indent
+vim.opt.wrap = false         -- no wrap line
 vim.opt.backspace = 'start,eol,indent'
 vim.opt.path:append { '**' } -- Finding file  - search down into sub directory
 vim.opt.wildignore:append { '*/node_modules/*' }
