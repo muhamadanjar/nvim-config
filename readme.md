@@ -1,6 +1,12 @@
 ## Nvim
 
 
+### Install
+```
+ln -s $PWD/nvim-config/ ~/.config/nvim
+```
+
+
 ## Nerd Font
 ### Contoh: install JetBrainsMono Nerd Font
 ```bash
