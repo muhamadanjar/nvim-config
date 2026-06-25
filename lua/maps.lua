@@ -14,6 +14,7 @@ keymap.set("n", 'dw', 'vb"_d')
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -- New tab
+keymap.set("n", "<leader>tn", ":tabnew<Return>", { desc = "Tab New"})
 keymap.set("n", "te", ":tabedit<Return>", { silent = true})
 -- keymap.set("n", "<TAB>", ":bnext<Return>")
 -- keymap.set("n", "<S-TAB>", ":bprevious<Return>")
@@ -45,4 +46,9 @@ keymap.set("n", "<C-Q>", ":wq!<Return>")
 keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
 
+-- Folding 
+keymap.set('v', '<space>', 'zf', { desc = 'Fold Selected Text' })
+keymap.set('n', '<space>', 'za', { desc = 'Toggle Fold' })
+keymap.set('n', '<leader>fo', 'zR', { desc = 'Open All Folds' })
+keymap.set('n', '<leader>fc', 'zM', { desc = 'Close All Folds' })
 
