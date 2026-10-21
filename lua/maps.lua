@@ -48,7 +48,7 @@ keymap.set("v", ">", ">gv")
 
 -- Folding 
 keymap.set('v', '<space>', 'zf', { desc = 'Fold Selected Text' })
-keymap.set('n', '<space>', 'za', { desc = 'Toggle Fold' })
+-- keymap.set('n', '<space>', 'za', { desc = 'Toggle Fold' })
 keymap.set('n', '<leader>fo', 'zR', { desc = 'Open All Folds' })
 keymap.set('n', '<leader>fc', 'zM', { desc = 'Close All Folds' })
 

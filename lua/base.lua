@@ -1,4 +1,9 @@
 print("base lua loaded")
+
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
 vim.cmd("autocmd!")
 
 vim.scriptencoding = 'utf-8'
